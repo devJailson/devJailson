@@ -28,7 +28,8 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          color_snake: "#9932CC" # roxo neon (pode trocar por qualquer cor hex)
+          
+          color_snake: "#FF0000" # roxo neon (pode trocar por qualquer cor hex)
           color_dots: "#1E1E1E,#9932CC,#FFD700,#FF4500,#FF0000"
           
           outputs: |
