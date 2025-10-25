@@ -28,9 +28,13 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          color_snake: "#9932CC" # roxo neon (pode trocar por qualquer cor hex)
+          color_dots: "#1E1E1E,#9932CC,#FFD700,#FF4500,#FF0000"
+          
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
           
           
       # push the content of <build_dir> to a branch
