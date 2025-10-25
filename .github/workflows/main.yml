@@ -29,7 +29,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           
-          color_snake: "#FF0000" # roxo neon (pode trocar por qualquer cor hex)
+          color_snake: "#FF4500" # roxo neon (pode trocar por qualquer cor hex)
+          color_dots: "#1E1E1E,#FF4500,#FFA500,#FFD700,#FF0000"
           
           
           outputs: |
